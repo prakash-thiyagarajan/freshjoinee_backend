@@ -5,13 +5,15 @@ class UsersController < ApplicationController
   end
   def create
     @user = User.new(user_params)
-    @valid = Department.find_by_password(params[:password])
+    @valid = Department.find_by_password(@user.password)
     if  @valid
-      print("111")
+      @user.save
+      print("success")
       render json: @user
+
       #redirect_to 'http://localhost:4200/view'
     else
-      print("22")
+      print("failed")
       #redirect_to '/signup'
 
     end

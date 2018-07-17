@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  college_name: MyString
+  college_location: MyString
+  department: MyString
+  cgpa: MyString
+  hsc_schoolname: MyString
+  hsc_location: MyString
+  hsc_stream: MyString
+  hsc_percentage: MyString
+  sslc_schoolname: MyString
+  sslc_location: MyString
+  sslc_percentage: MyString
+  user_id: 1
+
+two:
+  college_name: MyString
+  college_location: MyString
+  department: MyString
+  cgpa: MyString
+  hsc_schoolname: MyString
+  hsc_location: MyString
+  hsc_stream: MyString
+  hsc_percentage: MyString
+  sslc_schoolname: MyString
+  sslc_location: MyString
+  sslc_percentage: MyString
+  user_id: 1

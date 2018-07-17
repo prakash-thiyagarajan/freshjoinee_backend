@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  father_name: MyString
+  father_dob: 2018-07-17
+  mother_name: MyString
+  mother_dob: 2018-07-17
+  spouse_name: MyString
+  spouse_dob: 2018-07-17
+  child1_name: MyString
+  child1_dob: 2018-07-17
+  child2_name: MyString
+  child2_dob: 2018-07-17
+  child3_name: MyString
+  child3_dob: 2018-07-17
+  user_id: 1
+
+two:
+  father_name: MyString
+  father_dob: 2018-07-17
+  mother_name: MyString
+  mother_dob: 2018-07-17
+  spouse_name: MyString
+  spouse_dob: 2018-07-17
+  child1_name: MyString
+  child1_dob: 2018-07-17
+  child2_name: MyString
+  child2_dob: 2018-07-17
+  child3_name: MyString
+  child3_dob: 2018-07-17
+  user_id: 1

@@ -7,10 +7,10 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     @valid = Department.find_by_password(@user.password)
     if  @valid
-      @user.save
-      print("success")
-      render json: @user
-
+      if @user.save
+        print("success")
+        render json: @user
+      end
       #redirect_to 'http://localhost:4200/view'
     else
       print("failed")
